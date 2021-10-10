@@ -1,12 +1,15 @@
 import UIKit
 
-func printMyName(forName name: String,MyAge:Int) {
-    print("My name is: \(name) and i am \(MyAge) years:")
-return
+func printMyName(forName name: String,MyAge:Int) -> String {
+  
+    return "My name is \(name) and i am \(MyAge) years"
+    
+    
+
 }
 
 
 
- printMyName(forName: "Abdullah", MyAge: 24)
-
+let MyName = printMyName(forName: "Abdullah", MyAge: 24)
+print(MyName)
                           
