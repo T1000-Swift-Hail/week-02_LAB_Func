@@ -2,7 +2,7 @@
 
 ## Create a new playground "LAB_FUNC" and do the following steps :
 
-- Create a function: printMyName
+- Create a function: getMyName
 - the function has 1 parameter of type String : name
 - The function returns a String : "My name is < name > "
 - Call the function with your name as a parameter and print the output .
