@@ -4,7 +4,7 @@
 
 - Create a function: printMyName
 - the function has 1 parameter of type String : name
-- The function returns a String : "My name is < name > "
+- The function returns a String : print("My name is <name>")
 - Call the function with your name as a parameter and print the output .
 
 
