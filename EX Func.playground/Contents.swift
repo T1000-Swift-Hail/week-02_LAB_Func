@@ -1,11 +1,7 @@
-func printMyName(ForName: String){
-    print("My Name Is MR.\(ForName)")
-}
-printMyName(ForName: "Talal")
 
 
 
-func printMyName(ForName name: String? = "Unknown",MidlleName:String,age:Int)-> String {
+func printMyName(ForName name: String = "Unknown",MidlleName:String,age:Int)-> String {
     
     guard age == 29 else {return "Erorr Age !"}
     
